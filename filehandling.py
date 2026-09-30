@@ -1,0 +1,1 @@
+with open("mydata.txt","r") as b:
