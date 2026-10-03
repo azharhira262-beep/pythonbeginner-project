@@ -83,10 +83,10 @@ laptop2.info()
 
 class pizza:
     def __init__(self,size= 10,topping= "cheese",price = 1200):
-     #   self.size = size
-      #  self.topping = topping
-      #  self.price = price
-     def func(self):
+        self.size = size
+        self.topping = topping
+        self.price = price
+    def func(self):
         print("the size of pizza:",self.size)
         print("the topping is:", self.topping)
         print("the price is:",self.price)
@@ -133,8 +133,8 @@ class dog:
         print("The Dog sound:",self.sound)
 class puppy(dog):
  def __init__(self, sound):
-       # super().__init__(sound)
-     def  dog__sound(self):
+        super().__init__(sound)
+def  dog__sound(self):
        print("the puppy sound:",self.sound)
 puppy1= puppy("woof")
 dog1= dog("barkk")
